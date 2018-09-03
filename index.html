@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="weekly web dev challenge 23">
+    <meta name="keywords" content="Html, psd to html, weekly web dev challenge, 23">
+    <meta name="author" content="Piotr Sitarz">
+    <title>Agency</title>
+    <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAlNSURBVGhD7VlpbFTXFbaqqlKl/qiqpv1R9UelFlWVWqk/qlaVWkWqqiYkhBKWEKCFEBFCiIBCiRNsTAwJeDdjGy+sNt73ZcbjNTYQivdlxrN49sULsfFCHDavp/d7vs9+nnkz49JgplKP9MnWm3vPO+fec8/5zn0h/xcPOUX0jU+r7OHH8gyGd69pR/E3osRSFl3teDejauj7fFhwyzml7cSutO4n62Nb6cNCE8XVOCm81EJvXdTQy9Gt9HJMK+27rJ0MLzGrompdf+bTgkeS6pw/OZyts8PYqGoH9Q5Nk+P+wgr035ulGv0kxdW6BMdeimqh97N0A0GzS3Fq5592pHTNwLgb5ikvB3yh3nifdqX10KHrOgdX9fwkSmXfvymxff6f+UZhxeUMBuwyzwCVdoI2xrctcHXPR6LVjr2vxrXRWaWdbJPzXkb+y/GQkhvd9F6mjg5nG7x+B3qGntBfWIghNLnatZVYtfs3mxUd8xHsIMutdnrzIL0U3UJvZWgevH1JM3UwS+c1BjCPzwmOJKhcG7nqtZNLte7v7U7vfXQoW0/Wce+dKOwYJWStyApLBsZHlFuzd1zopjbXI+EMYRc6Bh6TfnRGeAZHEpsHXhSUr6X8I8dgfDOlm3qGZ7ycMIzO0qaEDooos+Tz4SHxasd6ZKjdGb0sS+npo2IzfVDQT6EFJtqa1Elsxx7woWsnpyttaetZLSju/dLLCSCNhdTu9J5HKIp8iiBhJSb19uTumdfYwcZ8YAM7Xweu9d37VGXfxoetjSgaHL9GhomvHyTtqLcTwK7UHjpTbk3gU7wkrmFwXZTa8bvoGtcf4uvdv+SP11ZQvFhVpgb7vOwBb2FZ6pWYNjpfafshnxJ8crbKfgpVO6/7K+q66+0EcPnzIXrnimaCTwk+QZZ6I7lr9uNKB9XYFsg6Ke8II4V0PNeo4dOCT06WmCu3KjpJaZqlO4PyTgAfFZkYUTS28GnBJSB0KHyJjUOktjLiNy7vBIDUeqLI3MinBpeElViU2A2VeY5uuOQdELGXkcaTJZZiPjV4JLXu7g82n2e70TAs7EbviLwDIlC9WZ+RzqcHj4SVmqu3JXWRku1GHTvkNhnjRVgn5oUCd6bcdoJPDw5JaR75zhZF+7yicXE3WobkHRDRZJoSGqXz9QM/4yqCQ05X2JJei2+nKpap4IhxTN4BEalNA7QztfsJn75CzjcO/IqFXMX71/tc+69oxw7n6C3IhEm1jp/zIc9O3r6omTpV4RCcaLDLGy/CxsIKJDK82NTEpwsSW+f+45FsvRW8CucntMgs9PAnGfX/G+sMwQKO5hr7nhkTiKlxbUWYFPY+FBzxVzsAVHScj+Rbg+swv7mZvnmy1Fy+Ia6V9l/VUWbbBN1kGc8uKaT4v7x3jP6e3oudnI5VO7cIL5cR6EtsGHjxk0rHHjRzsY3OX/Cf/EtoQf+dfVf6BCeAbh+UBKjUjAu9x+kK62XMRRghfDYmtFPKjS+oms1vZk74ShRoj1FIQUalzsD4T6ptkQczdcP4DT2LFMimKL5+O0tcJMQ3LBZAoM8H0y3rGROc8HwJiGVx3yNhbj0LS8uE/HwRIKDsTNLrzDhcZOD+i4Xe41di2+jDYiul3rpHxdrHVNU/RyqGQs0DQoHentJFW5I657BL3PRlSVC7NsCYkr7Hfh3By3ELotROstBZRlb7JCmt80tzfdF9T6DnP57fT7jIADk9UWqjMsP0kh45qExzdLzQTOhxYlTOXdyFRUFbup0dXOmEni/kXw4gZEAkpeNFBGICnjCNzdGRHCNdYwsip08OCN3QIgu9wXYmrnbwx9wN1sbm6vvhpXTwnQH5F4u45V6pXISvkPQHhGEdC0c5fXIQFtEyi4TBdtTYy90ICcFdbSSj69LBiHNpxvEEwkc6XoQvuh8IGhYBcvoAlIIWlkU1jC7BabHBS6xz0TtXtePcjcXQQirN61lMvSL8ZS4o+8y58oWA3NjVwlMfdgnGy3WmABxh/f8Id2NRDmT23d2doWH9x9ySIuyKvxXW31v5YsDsh/IHQidbOKmuQMwChdbLEVCHbYrOueOFFuEwicpusrPga0WAVsbHpC/3t4uBAMNFPYGYBYDbzveydEPchWWJrXG8jkJ0RulaYRyMlVMEwEnpwW90sGdPeU4cbJ6YDWvZX9kxEsCRQ9l6+cvwc0rHMfCkxM/uLhkH+Lp8AJCOpc60BWDN/oCFEPUEShwRZRbfjkAiK6yp+DiTxqqrqBRADMspBLAz7cNsRfnY1RZFTzRJDjwOutwYESCiR3IMVm62vIAAwpn022NLigF/OwMgAYBnIUSexhnMFd+FXZYbIwJ87VieQctN9i3oHxBmGR7O+NsZEVq2ms1sdVczVgoccum7sDBy4wB8umDONHNz/UtYiVkNkphxe2WYtbEwklPuCRNLxzDGX+YTYWbFTvoOAGfG5uOs4MvXqTLrdW5qYMFHTJC6BH49JOI2ozG+XvI0QJKQ6hfxuQxdwsK8ypgyaD83c3WCNhgTI8rtrM4sM12smCFA4VoNUEN8EVGgwyMCWp0PhfZBUev8PTdx9YKeAZQbHWChRkJnmAG4qLAG6EF8AaG3GtIoTR4FHaOES0Ru2n8usaqB3x64qh1BAxRd4yaVZXl3UMTgUD9b3dWcCewCWLaYsgMB+nHmMBdNGWgVN+vpJbLMmoTWE1+k0m6NMlq97BCAMEEqRe/fxZgtLvrQ4yBEbrNn0sInjLcsCLuc0zVFFf0zK36TAjqNrFXGbQ+zQWi1/2uJr3X/9IMCYzcuHHZe6KFk1q/jmlXOAF+oNs9TEmMRb17oXmqb0ft7FmMpFI2DQouMW1FuytcjyQ2D60IL+m9sSmhfQDtwNN9EF26OULlevm3FLWZmx5d0ttot9OB/jW9fCCs21eOrcWKz47v4Hyn/cut9r7lZnV/Rhrh2+ljyvfJrF4V6+IWYanvC0TyDk62YcAuyWdFJey9p6WCWnvZc1BAux/EJG1dPe9J7H+LCfEW7yuVYrkG3LbmLyg08zFjoJTSNspDqoEO5pmm1eeEFPvTZSpFO9634GtfW0+UWRXippQqFFbQHPO5ctfNgvNL9Iz5UVrAzO1O7pvdd1dORfAttTuoiJJjwUmtPodv9bT7sf0Niah070IbjuhWfvtfkuvX5SkjIvwHT/x3m5kq53wAAAABJRU5ErkJggg==" rel="icon" type="image/x-icon">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+     <section class="container-fluid" id="firstpage">
+          <nav class="navbar navbar-default">
+            <div class="container">s
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span style="color:#007cf5">!st</span> Agency</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#" title="home">home</a></li>
+                  <li><a href="#" title="about">about us</a></li>
+                  <li><a href="#" title="services">services</a></li>
+                  <li><a href="#" title="profile">profile</a></li>
+                  <li><a href="#" title="client">client</a></li>
+                  <li><a href="#" title="blog">blog</a></li>
+                  <li><a href="#" title="contact">contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+             <div class="row">
+                 <div class="col-md-6" id="hello">
+                     <h3>Hello</h3>
+                     <h1>My Name Is <span style="color:#007cf5">John Doe</span></h1>
+                     <h4>CEO | !st Agency</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates a repudiandae nisi tempora error dignissimos ut nostrum similique debitis dicta eveniet, aspernatur culpa tempore consectetur iusto est beatae at quos fugit odit neque aliquam. Architecto ipsam, commodi quisquam iusto officia laboriosam dolor deleniti, neque, dolores ea, sunt. Animi, laborum, ducimus.</p>
+                     <button>Click here</button>
+                 </div>
+                 <div class="col-md-6">
+                     <img src="img/dancer.png" alt="dancer">
+                 </div>
+             </div>
+          </div>
+      </section>
+      <section id="who">
+        <div class="container">
+             <div class="row">
+                 <div class="col-md-5">
+                     <h3>Who we are</h3>
+                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatibus doloribus saepe distinctio, vitae necessitatibus dolorem et velit repudiandae.</p>
+                     <button>Click here</button>
+                 </div>
+                 <div class="col-md-7">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus esse deserunt assumenda totam voluptatem aperiam illo mollitia officia, eveniet aut, tempora, facere veritatis quidem nulla odit minima dolorem! Magnam culpa ullam alias, odio pariatur maiores ratione aperiam nihil dolores, dolore neque perspiciatis enim voluptas doloribus dolor sapiente eius, voluptatum natus vel! Consequuntur.</p>
+                 </div>
+             </div>
+          </div>
+      </section>
+      <section id="services">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <h3>Services</h3>
+                      <h1>What I Do..</h1>
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="col-md-2">
+                          <img src="img/service1.png" alt="service">
+                      </div>
+                      <div class="col-md-10">
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ut, excepturi magnam ab, ratione, beatae laudantium qui consequuntur unde minima quis debitis aliquam porro quibusdam corporis.</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="col-md-2">
+                          <img src="img/service2.png" alt="service">
+                      </div>
+                      <div class="col-md-10">
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ut, excepturi magnam ab, ratione, beatae laudantium qui consequuntur unde minima quis debitis aliquam porro quibusdam corporis.</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="col-md-2">
+                          <img src="img/service3.png" alt="service">
+                      </div>
+                      <div class="col-md-10">
+                          <h6>Lorem ipsum dolor sit amet.</h6>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ut, excepturi magnam ab, ratione, beatae laudantium qui consequuntur unde minima quis debitis aliquam porro quibusdam corporis.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="profile">
+          <div class="header">
+              <h4>Profile</h4>
+              <h5>I Make Beautiful Things</h5>
+          </div>
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                      <div class="col-md-12 col-sm-12 box">
+                          <img src="img/profile1.jpg" alt="profile">
+                      </div>
+                      <div class="col-md-6 col-sm-6 box">
+                          <img src="img/profile2.jpg" alt="profile">
+                      </div>
+                      <div class="col-md-6 col-sm-6 box">
+                          <img src="img/profile3.jpg" alt="profile">
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                      <div class="col-md-6 col-sm-6 box">
+                          <div class="col-md-12 cols-sm-6 box">
+                              <img src="img/profile4.jpg" alt="profile">
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                           <div class="col-md-12 box">
+                               <img src="img/profile5.jpg" alt="profile">
+                           </div>
+                           <div class="col-md-12  box">
+                               <img src="img/profile6.jpg" alt="profile">
+                           </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="clients">
+          <div class="header">
+              <h5>Client</h5>
+              <h4>What I Do..</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ratione explicabo, quia delectus enim voluptate sint accusantium assumenda tempora.</p>
+          </div>
+          <div clas="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="img/logo1.png" alt="logo">
+                  </div>
+                  <div class="col-md-4">
+                      <img src="img/logo2.png" alt="logo">
+                  </div>
+                  <div class="col-md-4">
+                      <img src="img/logo3.png" alt="logo">
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="blog">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="col-md-12 one">
+                          <h5>Blog</h5>
+                          <h3>I Write Beautiful Things</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo consectetur at dolores rem, illo praesentium expedita perspiciatis ea eum.</p>
+                      </div>
+                      <div class="col-md-12 two">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore a eveniet iusto, quas necessitatibus eum ratione praesentium, unde sequi.</p>
+                          <h6>11 November</h6>
+                      </div>
+                      <div class="col-md-12">
+                          <div class="col-md-6">
+                             <div class="col-md-12 three">
+                                  <h6>11 November</h6>
+                                  <h3>Lorem ipsum dolor</h3>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                             <div class="col-md-12 four">
+                                  <h6>11 November</h6>
+                                  <h3>Lorem ipsum dolor</h3>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="col-md-12 blog five">
+                          <h6>11 November</h6>
+                          <h3>Lorem ipsum dolor</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sunt est aliquid iure molestiae aliquam accusamus, officiis voluptate omnis!</p>
+                      </div>
+                      <div class="col-md-12 six">
+                          <h6>11 November</h6>
+                          <h3>Lorem ipsum dolor</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi obcaecati rerum sapiente quod! Porro maiores, quia voluptatem fuga vero.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="contact">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 col-sm-12">
+                      <h5>Contacts</h5>
+                      <h3>Adress Info</h3>
+                      <div class="col-md-4 col-sm-4 col-xs-4">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                              <img src="img/email.png" alt="email">
+                          </div>
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                              <img src="img/phone.png" alt="phone">
+                          </div>
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                              <img src="img/adress.png" alt="adress">
+                          </div>
+                      </div>                                               <div class="col-md-6 col-sm-6 col-xs-6">
+                          <div class="col-md-12 col-sm-12 col-xs-12 email">
+                              <h6>Email</h6>
+                              <p>free@psdfreebies.com</p>
+                          </div>
+                          <div class="col-md-12 col-sm-12 col-xs-12 phone">
+                              <h6>Call Us!</h6>
+                              <p>+123 456 7890</p>
+                          </div>
+                          <div class="col-md-12 col-sm-12 col-xs-12 adress">
+                              <h6>Adress</h6>
+                              <p>123, Main Road</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="touch">
+                      <div class="col-md-6 col-md-offset-2 col-xs-12">
+                          <h3>Get in Touch</h3>
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <p>Name</p>
+                              </div>
+                              <div class="col-md-9">
+                                  <input type="text">
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <p>Email</p>
+                              </div>
+                              <div class="col-md-9">
+                                  <input type="text">
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <p>Phone</p>
+                              </div>
+                              <div class="col-md-9">
+                                  <input type="text">
+                              </div>
+                          </div>
+                          <div class="row message">
+                              <div class="col-md-3">
+                                  <p>Message</p>
+                              </div>
+                              <div class="col-md-9 ">
+                                  <input type="text">
+                              </div>
+                              <button>Submit</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row profile">
+                  <div class="col-md-12">
+                      <img src="img/social1.png" alt="social">
+                      <img src="img/social2.png" alt="social">
+                      <img src="img/social3.png" alt="social">
+                      <img src="img/social4.png" alt="social">
+                      <img src="img/social5.png" alt="social">
+                      <img src="img/social6.png" alt="social">
+                      <img src="img/social7.png" alt="social">
+                  </div>
+              </div>
+          </div>
+      </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
